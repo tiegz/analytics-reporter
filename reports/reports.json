@@ -36,8 +36,8 @@
         "end-date": "today"
       },
       "meta": {
-        "name": "Today",
-        "description": "Today's visits for all sites."
+        "name": "Last 48 Hours",
+        "description": "Last 48 hours of visits for all sites."
       }
     },
     {
