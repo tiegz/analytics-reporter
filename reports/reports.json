@@ -13,6 +13,20 @@
       }
     },
     {
+      "name": "realtime-pageviews",
+      "frequency": "realtime",
+      "realtime": true,
+      "query": {
+        "metrics": ["rt:pageViews"],
+        "dimensions": ["rt:minutesAgo"],
+        "max-results": "1440"
+      },
+      "meta": {
+        "name": "Page Views by Minute",
+        "description": "Page views for the past day, by minute."
+      }
+    },
+    {
       "name": "today",
       "frequency": "realtime",
       "query": {
